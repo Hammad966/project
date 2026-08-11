@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const searchSlice = createSlice({
   name: "search",
   initialState: {
@@ -22,7 +21,7 @@ const searchSlice = createSlice({
       state.results = actions.payload;
     },
     setLoading: (state, actions) => {
-      state.loading = true;
+      state.loading = true; 
       state.error = null;
     },
     setError: (state, actions) => {
