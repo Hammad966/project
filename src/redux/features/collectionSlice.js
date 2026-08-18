@@ -24,7 +24,7 @@ const collectionSlice = createSlice({
             state.items = []
             localStorage.removeItem('collection')
         }, 
-        addedToast: () => {
+        addedtoast: () => {
             
             toast.success('Added to collection✅', {
                 position: 'top-center',
